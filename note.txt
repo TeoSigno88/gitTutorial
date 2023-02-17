@@ -11,3 +11,6 @@ git add file.estensione = aggiunge il file (senza eventuali note)
 git commit -m	"descrizione dell'operazione" = commit di un file già aggiunto a Git
 
 git push -u origin main = spinge in git
+
+
+"ciao sono una modifica"
