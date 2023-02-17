@@ -5,5 +5,9 @@ git push -u origin main						//spinge il mio repository locale (main) nell'origi
 
 
 
-git commit -m	"descrizione dell'operazione" = commit di un file già aggiunto a Git
 git add . = aggiungere tutto ciò che contiene la folder
+git add file.estensione = aggiunge il file (senza eventuali note)
+
+git commit -m	"descrizione dell'operazione" = commit di un file già aggiunto a Git
+
+git push -u origin main = spinge in git
