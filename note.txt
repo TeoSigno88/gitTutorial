@@ -24,6 +24,7 @@ Da GitHub a locale
 git pull origin main = tira giù le ultime modifiche della cartella main sul PC (anche quelle fatte da remoto). In caso di conflitto vince il file locale
 
 
+
 DALL'IDE
 - Commit
 - Push
