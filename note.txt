@@ -1,18 +1,32 @@
+Azioni da seguire per spingere file in GitHub
+
+Istruzioni copiate da GitHub
 …or push an existing repository from the command line
 git remote add origin https://github.com/TeoSigno88/gitTutorial.git	//collegato il repository locale con quello remoto
-git branch -m main							//crea e mi porta sul branch main (main può essere pippo, è l'argomento), (branch è la funzione)
-git push -u origin main						//spinge il mio repository locale (main) nell'origin (repository remoto), il main locale nel main remoto (origin/main)
+git branch -m main							//crea e porta i file sul branch main (main può essere chiamato anche pippo, è l'argomento della funzionme), (branch è la funzione)
+git push -u origin main						//spinge il mio repository locale (main) nell'origin (repository remoto), quindi il main locale nel main remoto (origin/main)
 
 
+DAL TERMINALE
+Passaggio 1
+git add . = aggiungere tutti file che sono contenuti nella folder
+git add file.estensione = aggiunge solo il file selezionato (senza eventuali note)
 
-git add . = aggiungere tutto ciò che contiene la folder
-git add file.estensione = aggiunge il file (senza eventuali note)
-
+Passaggio 2
 git commit -m	"descrizione dell'operazione" = commit di un file già aggiunto a Git
 
-git push -u origin main = spinge in git
+Passaggio 3
+git push -u origin main = spinge in git (usarlo solo la prima volta)
+git push origin main = usarlo le altre volte
 
 
-"ciao sono una modifica"
-
+Da GitHub a locale
 git pull origin main = tira giù le ultime modifiche della cartella main sul PC (anche quelle fatte da remoto). In caso di conflitto vince il file locale
+
+
+DALL'IDE
+- Commit
+- Push
+
+
+ATTENZIONE ASSICURARSI SEMPRE CHE IL COMMIT E PUSH VENGANO FATTI CON L'ULTIMA MODIFICA UFFICIALE
